@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -86,111 +87,91 @@ header nav a {
 	color: black;
 }
 
-/* top-content */
-
-.jumbo-header {
-    margin-bottom: 20px;
-}
-
 .top-content {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+.about {
+    width: 95%;
 }
 
-
-/* middle-content */
-
-.middle-content {
+.top-content p {
     margin-bottom: 20px;
+}
+
+/* main-content */
+
+.main-content {
+    display: flex;
+    flex-flow: row wrap;
+	justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.strategy {
+    display: flex;
+    flex-direction: column;
     border-bottom: 1px dashed black;
+    flex-basis: 370px;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
+.how-we-work{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    flex-basis: 370px;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: teal;
-    margin: 20px 2.5%;
-    color: white;
+.places-we-work {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    flex-basis: 370px;
+    margin-top: 40px;
 }
 
-.middle-content .boxes .box:nth-child(2) {
-    background: gold;
+.collaboration {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    flex-basis: 370px;
+    margin-top: 40px;
 }
 
-.middle-content .boxes .box:nth-child(3) {
-    background: cadetblue;
+h2 {
+    margin-top: 10px;
 }
 
-.middle-content .boxes .box:nth-child(4) {
-    background: coral;
+button {
+	font-size: 16px;
+	height: 35px;
+	width: 130px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+	border: 2px solid black;
+	background-color: white;
+	border-radius: 6px;
+	text-align: center;
 }
 
-.middle-content .boxes .box:nth-child(5) {
-    background: crimson;
-}
-
-.middle-content .boxes .box:nth-child(6) {
-    background: forestgreen;
-}
-
-.middle-content .boxes .box:nth-child(7) {
-    background: darkorchid;
-}
-
-.middle-content .boxes .box:nth-child(8) {
-    background: hotpink;
-}
-
-.middle-content .boxes .box:nth-child(9) {
-    background: indigo;
-}
-
-.middle-content .boxes .box:nth-child(10) {
-    background: dodgerblue;
-}
-
-/* bottom-content */
+/* bottom-content*/
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-top: 40px;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.lets-work-together {
+    width: 95%;
 }
 
 footer {
     width: 100%;
     background: black;
+    margin-top: 40px;
 }
 
 footer nav {
